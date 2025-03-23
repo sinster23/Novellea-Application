@@ -118,6 +118,55 @@ CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
+---
+
+## 🚀 Deploy Backend API on Render
+
+You can easily deploy your backend server on [Render](https://render.com). Follow the steps below to get your API live and connected to your frontend app.
+
+---
+
+### 🔧 Prerequisites
+- MongoDB Atlas database connection
+- Cloudinary account for image uploads
+- GitHub repository containing the backend code
+
+---
+
+### 🛠️ Step-by-Step Guide
+
+#### 1️⃣ Sign Up and Connect GitHub Repo
+1. Go to [Render](https://render.com/).
+2. Sign up or log in with your GitHub account.
+3. Click **"New Web Service"**.
+4. Connect your GitHub repo (select the repo where your backend code lives).
+
+#### 2️⃣ Configure Your Web Service
+- **Name**: Choose any name for your backend service.
+- **Environment**: Node
+- **Region**: Closest to your users (e.g., Oregon for US)
+- **Branch**: main (or whichever branch you're using)
+- **Build Command**:
+  ```bash
+  npm install
+  ```
+  - **Start Command**:
+  ```bash
+  npm run dev
+  # or
+  node index.js
+  ```
+  
+---
+
+### Deploy the Service
+- Click Create Web Service.
+- Render will install dependencies, build, and deploy your backend.
+- Once deployed, Render will provide you with a Public URL, something like:
+
+```bash
+https://your-backend-service.onrender.com
+```
 
 ---
 
