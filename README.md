@@ -1,4 +1,4 @@
-# Welcome to my Expo app 👋
+# 📚 Welcome to my Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -8,131 +8,81 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     <td><img src="https://github.com/sinster23/Screenshots/blob/main/novellea-images/p4.jpeg" alt="Screenshot 2" width="280"/></td>
     <td><img src="https://github.com/sinster23/Screenshots/blob/main/novellea-images/p3.jpeg" alt="Screenshot 3" width="280"/></td>
     <td><img src="https://github.com/sinster23/Screenshots/blob/main/novellea-images/p2.jpeg" alt="Screenshot 4" width="280"/></td>
-    <td><img src="https://github.com/sinster23/Screenshots/blob/main/novellea-images/p1.jpeg" alt="Screenshot 4" width="280"/></td>
+    <td><img src="https://github.com/sinster23/Screenshots/blob/main/novellea-images/p1.jpeg" alt="Screenshot 5" width="280"/></td>
   </tr>
 </table>
 
-✨ Features
-📖 Personalized novel recommendations
+---
 
-🔍 Search for novels by genre, author, or title
+## ✨ Features
 
-⭐ Add to favorites / wishlist
+- 📖 Get suggestions from the Novel lovers  
+- 📝 Personalize and share novel recommendations  
+- 🔐 User authentication and profile management  
+- ⚡ Fast and intuitive user interface  
+- 🖼️ User avatars powered by DiceBear  
+- ☁️ Cloudinary image storage for efficient media management  
 
-📝 View detailed novel summaries & ratings
+---
 
-🔐 User authentication and profile management
+## 📁 Folders Overview
 
-⚡ Fast and intuitive user interface
+### `/backend`
+- `src/lib/` - Contains additional backend components (Crude, Mongo, Cloudinary)  
+- `src/middleware/` - Authentication & error handling middleware  
+- `src/models/` - MongoDB schemas and models  
+- `src/routes/` - API endpoints for user and books route  
+- `index.js` - Main entry point for the backend server  
 
-🚀 Tech Stack
-🔹 Backend
-Framework: (Node.js + Express / Django / Flask)
+### `/ui`
+- `app/` - Screens like Login, Signup, Home, Profile  
+- `components/` - Reusable UI components (e.g., NovelCard, Header, Cards)  
+- `lib/` - Additional components in utils  
+- `constants/` - CSS constants  
+- `assets/` - Images, icons, fonts (including JetBrains Mono)  
+- `store/` - Uses AuthStore for easy usage  
 
-Database: (MongoDB / PostgreSQL / SQLite)
+---
 
-Authentication: (JWT / Sessions)
+## 🚀 Tech Stack
 
-Recommendation logic: (Collaborative filtering / Content-based filtering)
+### 🔹 Frontend (Mobile App)
+- **React Native** with **Expo**  
+- **DiceBear Avatars** for user profile images  
+- **Storyset** for illustrations and designs  
+- **JetBrains Mono** font for clean typography  
+- **React Navigation** for app routing  
+- **NativeWind / TailwindCSS** for styling  
 
-🔹 UI (Frontend)
-(React Native / Expo) for mobile app
+### 🔹 Backend (API Server)
+- **Node.js + Express.js** for REST API  
+- **MongoDB** for database storage  
+- **Cloudinary** for storing and managing user-uploaded images  
+- **JWT** for user authentication  
+- **Render.com** for deploying the backend API (thanks to Crude Jobs for surviving free subscription limits 😄)
 
-State Management: (Redux / Context API)
+---
 
-UI Styling: (NativeWind / TailwindCSS / Custom Stylesheets)
+## 🖥️ Backend & Frontend Setup
 
-API Integration with Backend
-
-📁 Folders Overview
-/backend
-routes/ - API endpoints (e.g., /recommend, /login, /novels)
-
-controllers/ - Business logic for handling requests
-
-models/ - Database schemas/models
-
-config/ - DB connection & environment configs
-
-server.js or app.js - Entry point for the backend server
-
-/ui
-screens/ - Screens like Login, Signup, Home, Recommendations
-
-components/ - Reusable UI components (e.g., NovelCard, Header)
-
-services/ - API services for interacting with backend
-
-navigation/ - App navigation (React Navigation)
-
-assets/ - Images, icons, fonts
-
-⚙️ Getting Started
-Prerequisites
-Node.js (vXX)
-
-npm / yarn
-
-Expo CLI (if using React Native)
-
-MongoDB / PostgreSQL running locally or in the cloud
-
-🖥️ Backend Setup
-bash
-Copy
-Edit
+```bash
+# Backend setup
 cd backend
 npm install
 # or yarn install
 
-# Create a .env file with your DB connection & secret keys
+# Create a .env file with your environment variables
 cp .env.example .env
 
-# Run server
+# Run backend server
 npm run dev
 # or
 node server.js
-📱 UI Setup
-bash
-Copy
-Edit
+
+# Frontend setup
 cd ui
 npm install
 # or yarn install
 
-# Start Expo server (if using Expo)
+# Start Expo development server
 npx expo start
-📦 API Endpoints (Examples)
-Method	Endpoint	Description
-POST	/api/login	User login
-POST	/api/register	User signup
-GET	/api/recommend	Get novel recommendations
-GET	/api/novels	Get all novels
-🔑 Environment Variables
-Backend (backend/.env)
-dotenv
-Copy
-Edit
-PORT=5000
-DATABASE_URL=mongodb://localhost:27017/novelapp
-JWT_SECRET=your_jwt_secret
-📝 Future Improvements
-Add user reviews and comments
-
-Implement a recommendation algorithm with ML
-
-Push notifications for new recommendations
-
-Dark mode support
-
-Deployment (Heroku / Vercel / Netlify / AWS)
-
-📄 License
-This project is open-source and available under the MIT License.
-
-🙌 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-👨‍💻 Author
-Your Name
-GitHub Profile
