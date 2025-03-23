@@ -25,7 +25,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ---
 
-### 📁 Folders Overview
+## 📁 Folders Overview
 
 ### `/backend`
 - `src/lib/` - Contains additional backend components (Crude, Mongo, Cloudinary)  
@@ -44,7 +44,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ---
 
-### 🚀 Tech Stack
+## 🚀 Tech Stack
 
 ### 🔹 Frontend (Mobile App)
 - **React Native** with **Expo**  
@@ -63,7 +63,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ---
 
-### 🚀 Clone the Repository
+## 🚀 Clone the Repository
 
 ```bash
 # Clone the repository
@@ -107,7 +107,7 @@ npx expo start
 
 ---
 
-### ⚙️ Environment Variables
+## ⚙️ Environment Variables
 Make sure you fill in the .env files with your own credentials:
 
 Backend .env Example:
@@ -121,7 +121,7 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ---
 
-### ✅ You're All Set!
+## ✅ You're All Set!
 Backend runs on: http://localhost:5000 (or your custom port)
 
 Frontend runs via Expo Go (locally and live reload)
