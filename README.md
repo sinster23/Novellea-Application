@@ -53,8 +53,7 @@ Users can also send their personal recommendations and join thhe community of No
 - **DiceBear Avatars** for user profile images  
 - **Storyset** for illustrations and designs  
 - **JetBrains Mono** font for clean typography  
-- **React Navigation** for app routing  
-- **NativeWind / TailwindCSS** for styling  
+- **React Expo Router** for app routing  
 
 ### 🔹 Backend (API Server)
 - **Node.js + Express.js** for REST API  
