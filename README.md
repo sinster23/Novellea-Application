@@ -1,6 +1,8 @@
 # 📚 Welcome to my Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the **Novellea App**!  
+This project helps users discover and get personalized recommendations for novels they might enjoy. 
+Users can also send their personal recommendations and join thhe community of Novellees.
 
 <table>
   <tr>
