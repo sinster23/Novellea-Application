@@ -173,6 +173,6 @@ https://your-backend-service.onrender.com
 ## ✅ You're All Set!
 Backend runs on: http://localhost:5000 (or your custom port)
 
-Frontend runs via Expo Go (locally and live reload)
+Frontend runs via Expo Go (live on render.com)
 
 Customize, explore, and enjoy! 🎉
