@@ -63,26 +63,63 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ---
 
-## 🖥️ Backend & Frontend Setup
+### 🚀 Clone the Repository
 
 ```bash
-# Backend setup
+# Clone the repository
+https://github.com/sinster23/Novellea-Application.git
+
+# Move into the project directory
+cd Novellea
+```
+### 🖥️ Backend Setup
+
+```bash
 cd backend
 npm install
-# or yarn install
+# or
+yarn install
 
-# Create a .env file with your environment variables
+# Create your environment variables file
 cp .env.example .env
 
-# Run backend server
+# Add your credentials in the newly created .env file
+
+# Start the backend server
 npm run dev
 # or
 node server.js
+```
 
-# Frontend setup
+### 📱 Frontend Setup
+
+```bash
 cd ui
 npm install
-# or yarn install
+# or
+yarn install
 
-# Start Expo development server
+# Start the Expo development server
 npx expo start
+
+# Scan the QR code with Expo Go on your mobile device
+```
+
+## ⚙️ Environment Variables
+Make sure you fill in the .env files with your own credentials:
+
+Backend .env Example:
+```bash
+MONGO_URI=your_mongo_db_connection_string
+JWT_SECRET=your_jwt_secret_key
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
+
+✅ You're All Set!
+Backend runs on: http://localhost:5000 (or your custom port)
+
+Frontend runs via Expo Go (locally and live reload)
+
+Customize, explore, and enjoy! 🎉
